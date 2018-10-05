@@ -1,9 +1,9 @@
 alpha = 'abcdefghijklmnopqrstuvwxyz'
 final = ''
-input1 = input("Enter a String")
+myinput = input("Enter a String")
 key = int(input("Enter Value of Key"))
-input1 = input1.lower()
-for x in input1:
+myinput = myinput.lower()
+for x in myinput:
     if(x in alpha):
         pos = alpha.find(x)
         pos = (pos+key)%26
