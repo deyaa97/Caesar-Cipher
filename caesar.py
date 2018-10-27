@@ -1,3 +1,4 @@
+# code starts
 alpha = 'abcdefghijklmnopqrstuvwxyz'
 final = ''
 myinput = input("Enter a String")
