@@ -32,5 +32,5 @@ if __name__ == "__main__":
   
         s = "testtext"
   
-        # print the cipher of "geeksforgeeks"
+        # print the cipher
         polybiusCipher(s)
